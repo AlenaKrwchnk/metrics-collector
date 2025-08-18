@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.3.0
+Build-Jdk-Spec: 21
+Class-Path: spring-boot-starter-3.5.4.jar spring-boot-3.5.4.jar spring-c
+ ontext-6.2.9.jar spring-aop-6.2.9.jar spring-beans-6.2.9.jar spring-exp
+ ression-6.2.9.jar micrometer-observation-1.15.2.jar micrometer-commons-
+ 1.15.2.jar spring-boot-autoconfigure-3.5.4.jar spring-boot-starter-logg
+ ing-3.5.4.jar logback-classic-1.5.18.jar logback-core-1.5.18.jar log4j-
+ to-slf4j-2.24.3.jar log4j-api-2.24.3.jar jul-to-slf4j-2.0.17.jar jakart
+ a.annotation-api-2.1.1.jar spring-core-6.2.9.jar spring-jcl-6.2.9.jar s
+ nakeyaml-2.4.jar netty-all-4.1.111.Final.jar netty-buffer-4.1.123.Final
+ .jar netty-codec-4.1.123.Final.jar netty-codec-dns-4.1.123.Final.jar ne
+ tty-codec-haproxy-4.1.123.Final.jar netty-codec-http-4.1.123.Final.jar 
+ netty-codec-http2-4.1.123.Final.jar netty-codec-memcache-4.1.123.Final.
+ jar netty-codec-mqtt-4.1.123.Final.jar netty-codec-redis-4.1.123.Final.
+ jar netty-codec-smtp-4.1.123.Final.jar netty-codec-socks-4.1.123.Final.
+ jar netty-codec-stomp-4.1.123.Final.jar netty-codec-xml-4.1.123.Final.j
+ ar netty-common-4.1.123.Final.jar netty-handler-4.1.123.Final.jar netty
+ -transport-native-unix-common-4.1.123.Final.jar netty-handler-proxy-4.1
+ .123.Final.jar netty-handler-ssl-ocsp-4.1.123.Final.jar netty-resolver-
+ 4.1.123.Final.jar netty-resolver-dns-4.1.123.Final.jar netty-transport-
+ 4.1.123.Final.jar netty-transport-rxtx-4.1.123.Final.jar netty-transpor
+ t-sctp-4.1.123.Final.jar netty-transport-udt-4.1.123.Final.jar netty-tr
+ ansport-classes-epoll-4.1.123.Final.jar netty-transport-classes-kqueue-
+ 4.1.123.Final.jar netty-resolver-dns-classes-macos-4.1.123.Final.jar ne
+ tty-transport-native-epoll-4.1.123.Final-linux-x86_64.jar netty-transpo
+ rt-native-epoll-4.1.123.Final-linux-aarch_64.jar netty-transport-native
+ -epoll-4.1.123.Final-linux-riscv64.jar netty-transport-native-kqueue-4.
+ 1.123.Final-osx-x86_64.jar netty-transport-native-kqueue-4.1.123.Final-
+ osx-aarch_64.jar netty-resolver-dns-native-macos-4.1.123.Final-osx-x86_
+ 64.jar netty-resolver-dns-native-macos-4.1.123.Final-osx-aarch_64.jar p
+ ostgresql-42.7.4.jar checker-qual-3.42.0.jar HikariCP-5.1.0.jar slf4j-a
+ pi-2.0.17.jar
+Implementation-Title: metrics-collector
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: org.springframework.boot.loader.launch.JarLauncher
+Start-Class: com.example.metricscollector.LoadClient
+Spring-Boot-Version: 3.5.4
+Spring-Boot-Classes: BOOT-INF/classes/
+Spring-Boot-Lib: BOOT-INF/lib/
+Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
+Spring-Boot-Layers-Index: BOOT-INF/layers.idx
+

@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  timescaledb:
+    image: timescale/timescaledb:2.21.3-pg15  # Используем ту же версию, что и расширение
+    container_name: metrics
+    environment:
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: metrics
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescaledb-data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  timescaledb-data:
