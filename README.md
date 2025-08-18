@@ -1,13 +1,13 @@
 # Metrics Collector
 High-performance time-series metrics collection system with Spring Boot 3.5 and TimescaleDB
-## 🛠 Технологический стек
+## Технологический стек
 - **Ядро**: Spring Boot 3.5.4 (Java 21)
 - **Сеть**: Netty 4.1.111 (TCP-сервер)
 - **База данных**: TimescaleDB (PostgreSQL 16)
 - **Пул соединений**: HikariCP 5.1.0
 - **Тестирование**: JUnit 5.10 + Testcontainers 1.21
 
-- ## 📌 Features
+- ## Features
 
 - Real-time metrics ingestion via TCP
 - TimescaleDB hypertable for time-series data
@@ -31,7 +31,7 @@ bash
 java -cp target/metrics-collector-*.jar com.example.metricscollector.LoadClient \
   127.0.0.1 9000 8 50000
 ```
-⚙️ Configuration
+Configuration
 Environment variables for server:
 
 Variable	Default	Description
@@ -40,7 +40,7 @@ FLUSH_INTERVAL_SECONDS	5	Batch flush interval
 
 
 
-🧪 Testing
+Testing
 Run unit and integration tests:
 
 bash
